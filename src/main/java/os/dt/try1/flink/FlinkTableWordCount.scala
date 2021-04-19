@@ -1,7 +1,8 @@
 package os.dt.try1.flink
 
 import org.apache.flink.api.scala._
-import org.apache.flink.table.api.scala._
+import org.apache.flink.table.api._
+import org.apache.flink.table.api.bridge.scala._
 
 object FlinkTableWordCount {
 
